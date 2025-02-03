@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#drop-area {
+    border: 2px dashed gray;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#file-list {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.file-item {
+    margin: 5px 0;
+}
+
+.download-btn {
+    background-color: blue;
+    padding: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
